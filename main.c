@@ -184,7 +184,7 @@ void menuTemperatura() {
         raw = lerTemp();
         temperatura = raw * 4.8875 / 10;
         
-        // transforma o valor numérico em string
+        // transforma o valor numï¿½rico em string
         snprintf(temperaturaS, sizeof(temperaturaS), "%.2f", temperatura);
         strcat(temperaturaS, " oC");
         strcat(temperaturaS, "   ");
